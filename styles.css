@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.staging-chicken {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
