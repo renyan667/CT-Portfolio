@@ -32,13 +32,14 @@ body {
     background-image: url(fine-art-alps-photo-m.jpg);
 
     /* Set a specific height */
-    min-height: 300px;
+    min-height: 600px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    fill: ;
 }
 
 .video-container {
@@ -48,4 +49,27 @@ body {
 
 video {
     max-width: 600px;
+}
+
+.page-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.item {
+    width: 300px;
+    height: 300px;
+    background: blue;
+    font-size: 37px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+
 }
