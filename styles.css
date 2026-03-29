@@ -11,11 +11,21 @@ body {
 
 }
 
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: max-content;
+}
+
 .button {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    padding: 12px 24px;
+    justify-content: space-evenly;
+    margin: 10px;
     font-size: 16px;
     border: whitesmoke;
     border-radius: 7px;
@@ -24,7 +34,14 @@ body {
     cursor: pointer;
     width: 300px;
     height: 300px;
-    gap: 15px
+    gap: 15px;
+    text-decoration: none;
+
+}
+
+.button:hover {
+    transition: 0.2s;
+    transform: scale(1.05);
 }
 
 
