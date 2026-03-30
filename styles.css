@@ -36,12 +36,13 @@ body {
     height: 300px;
     gap: 15px;
     text-decoration: none;
+    text-align: center;
 
 }
 
 .button:hover {
-    transition: 0.2s;
-    transform: scale(1.05);
+    transition: 0.3s;
+    transform: scale(1.10);
 }
 
 
