@@ -36,7 +36,6 @@ body {
     height: 300px;
     gap: 15px;
     text-decoration: none;
-    text-align: center;
 
 }
 
@@ -62,4 +61,8 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
+}
+
+p {
+    font-size: large;
 }
