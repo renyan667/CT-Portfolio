@@ -88,17 +88,24 @@ p {
 
 
 nav a {
+    flex-direction: row;
     padding: 7px;
     background-color: black;
     border-radius: 6px;
     text-decoration: none;
-    color: aliceblue
+    color: aliceblue;
+    gap: 10px;
 }
 
 iframe {
     display: flex;
     flex-wrap: wrap;
-    min-height: 1000px;
-    min-width: 2500px;
+    min-height: 800px;
+    min-width: 17000px;
     border: none;
+}
+
+nav a:hover {
+    transition: 0.3s;
+    transform: scale(1.10);
 }
